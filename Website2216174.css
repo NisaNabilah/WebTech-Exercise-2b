@@ -1,0 +1,248 @@
+body{
+  background-color: rgb(245, 245, 241);
+}
+
+a{
+  font-family: 'Poppins';
+  color: black;
+  font-weight: lighter;
+  margin-left: 10px;
+}
+
+#welcome{
+  font-size: xxx-large;
+  font-family: 'Gill Sans';
+  font-weight: lighter;
+}
+
+#webname{
+  font-size: 3cm;
+  font-family: 'Gill Sans';
+  font-weight: lighter;
+  line-height: 1%;
+}
+
+#webdesc{
+  font-size: xx-large;
+  font-family: 'Gill Sans';
+  font-weight: lighter;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+#learn-button{
+  font-family: 'Poppins' ;
+  font-weight: lighter;
+  width: 140px;
+  height: 30px;
+  border-radius: 5%;
+  padding: 20px;
+  margin: auto;
+  justify-content: center;
+  color: rgb(127, 68, 68);
+  background-color: white;
+}
+
+#learn-button :hover{
+  cursor: pointer;
+  background-color: burlywood;
+  color: white;
+}
+.aboutpic{
+    color: rgb(127, 68, 68);
+    height: 40%;
+    width: 48%;
+    float: left;
+    padding: 10px;
+}
+
+.about::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#aboutfont{
+  font-family: 'Gill Sans';
+  font-size: xxx-large;
+  font-weight: lighter;
+}
+
+#aboutdesc{
+  font-family: 'Gill Sans MT';
+  font-size: medium;
+  font-weight: lighter;
+}
+
+#destinations{
+  font-family: 'Gill Sans';
+  font-size: xxx-large;
+  font-weight: lighter;
+  text-align: center;
+}
+
+#desdesc{
+  font-family: 'Gill Sans MT';
+  font-size: medium;
+  font-weight: lighter;
+  text-align: inherit;
+  color:  rgb(54, 29, 29);
+}
+
+.content {
+    float: left;
+    height: 25%;
+    width: 30%;
+    padding: 10px;
+    border-style: double;
+    border-color: rgb(54, 29, 29);
+    margin-left: 6px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #table{
+    width: 48%;
+    float: left;
+  }
+
+  #dan{
+    align-content: center;
+    width: 48%;
+    float: inline-end;
+  }
+
+  tr, td{
+    border: 1px solid  rgb(54, 29, 29);
+    text-align: center;
+  }
+
+  #dannadest{
+    font-family: 'Gill Sans';
+    font-size: xxx-large;
+    font-weight: lighter;
+    text-align: center;
+  }
+  #dannadesc{
+    font-family: 'Gill Sans MT';
+    font-size: medium;
+    font-weight: lighter;
+    text-align: inherit;
+    color:  rgb(54, 29, 29);
+  }
+
+  #dannatt{
+    font-family: 'Gill Sans';
+    font-size: large;
+    text-align: center;
+    color:  rgb(54, 29, 29);
+  }
+
+  #promotions{
+    font-family: 'Gill Sans';
+    font-size: xxx-large;
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  .contentt {
+    font: 'Poppins';
+    color: rgb(127, 68, 68);
+    float: left;
+    height: 30%;
+    width: 30%;
+    padding: 10px;
+  }
+
+  .roww::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .contenttt {
+    font: 'Poppins';
+    color: rgb(127, 68, 68);
+    float: left;
+    height: 30%;
+    width: 30%;
+    padding: 10px;
+    border-style: double;
+    border-color: rgb(54, 29, 29);
+  }
+
+  .rowww::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #press{
+    background-image: url(bPics6.jpeg);
+  }
+
+  #presst{
+    font-family: 'Gill Sans';
+    font-size: xxx-large;
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  .contents {
+    font: 'Poppins';
+    color: rgb(54, 29, 29);
+    float: left;
+    height: 25%;
+    width: 31%;
+    padding: 10px;
+  }
+
+  .rows::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #name, #phone, #feedback {
+    font-family: 'Gill Sans';
+    font-size: large;
+    text-decoration: solid black;
+    text-align: center;
+    width: 480.08px;
+}
+
+footer{
+    font-family: 'Gill Sans';
+    font-size: large;
+    text-decoration: solid black;
+    text-align: center;
+}
+
+#form{
+  border-style: solid;
+  border-color: black;
+}
+
+#submit-button {
+    
+    width: 80px;
+    height: 35px;
+    border-radius: 5%;
+    font-family: 'Poppins' ;
+}
+
+#submit-button:hover {
+    cursor: pointer;
+    background-color: steelblue;
+    color: white;
+}
